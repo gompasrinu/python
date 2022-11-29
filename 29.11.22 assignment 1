@@ -1,0 +1,10 @@
+a=10
+b=20
+c=30
+d=40
+if a>d:
+    print ('a is small ')
+else:
+     print ('d is big')
+ Out put:
+b is big 
