@@ -1,0 +1,18 @@
+sno=int(input('enter the sno'))
+sname=input('enter the name')
+group=input('enter the group')
+s1=int(input('s1='))
+s2=int(input('s2='))
+s3=int(input('s3='))
+if s1>=35 and s2>=35 and s3>=35:
+   print('PASS')
+else:
+    print('FAIL')
+ouput
+enter the sno1
+enter the nameneelima
+enter the groupmccs
+s1=95
+s2=98
+s3=93
+PASS
