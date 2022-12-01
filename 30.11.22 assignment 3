@@ -1,0 +1,26 @@
+electricity bill home
+
+ub=input('enter user billno:')
+un=input('enter user name:')
+u=int(input('no of units used by user:'))
+fixedc=10
+if 0<=u<=30:bill= u*1.95+fixedc+25
+elif 31<=u<=75:bill= u*3.0+fixedc+30
+elif 76<=u<=125:bill= u*4.50+fixedc+45
+elif 126<=u<=225:bill= u*6.00+fixedc+50
+elif 226<=u<=400:bill= u*8.75+fixedc+55
+else:bill= u*9.75+fixedc+55
+print('user billno:',ub)
+print('username:',un)
+print('bill=',bill)
+
+
+output
+enter user billno:ap23456
+enter user name:mouli
+no of units used by user:100
+user billno: ap23456
+username: mouli
+bill= 505.0
+
+
