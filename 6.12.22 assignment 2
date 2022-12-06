@@ -1,0 +1,17 @@
+n=int(input ('enter number'))
+temp=n
+rev=0
+while (n>0):
+    big=n%10
+    rev=(rev*10)+big
+    n=n//10
+if(temp==rev ):
+    print ('the number is palindrome ')
+else:
+        print ('the number is not palindrome ')
+
+Output:
+Enter number 123
+Is not palindrome
+Enter number 121
+Is palindrome 
