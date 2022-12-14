@@ -1,0 +1,18 @@
+#sequential order
+n=int(input('enter limit:'))
+ap=[]
+for i in range(n):
+    x=input('enter district:')
+    ap.append(x)
+ap.sort()
+print(ap)
+
+output
+enter limit:4
+enter district:kakinada
+enter district:vskp
+enter district:srikakulam
+enter district:amalapuram
+['amalapuram', 'kakinada', 'srikakulam', 'vskp']
+
+
