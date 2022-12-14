@@ -1,0 +1,14 @@
+
+#hacker rank program
+n=int(input())
+l=list(map(int,input().split()))
+s=set(l)
+x=list(s)
+x.sort(reverse=True)
+print(x[1])
+
+output
+5
+2 3 6 6 5
+
+5
