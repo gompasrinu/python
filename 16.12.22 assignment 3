@@ -1,0 +1,8 @@
+#count no of digits in a string
+str=input('enter string:')
+n=len(str)
+c=0
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        c=c+1
+print('the number of digits in a string:',c)
