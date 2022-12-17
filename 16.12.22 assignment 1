@@ -1,0 +1,10 @@
+#string operations
+str1=input('enter string:')
+length=len(str1)
+print('number of characters of string:',length)
+str2=input('enter string:')
+print(str2.upper())
+str3=input('enter string:')
+print(str3.lower())
+str4=input('enter string:')
+print(str4.swapcase())
