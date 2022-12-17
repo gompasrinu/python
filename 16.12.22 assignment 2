@@ -1,0 +1,8 @@
+#count no. of alphabets in string
+str=input('enter string:')
+n=len(str)
+c=0
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        c=c+1
+print('the number of alphabets in a string:',c)
