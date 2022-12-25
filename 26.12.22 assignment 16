@@ -1,0 +1,29 @@
+16I have an array with different numbers, and i have to find minimum, maximum and all the differences of those numbers. I have tried this:
+
+# list of numbers from which we want to find differences. 
+list_of_nums = [1, 9, 7, 13, 56, 5]
+
+
+def find_differences(list_of_nums):
+    list_of_nums = list(dict.fromkeys(list_of_nums)) # remove duplicates
+    differences = [] # list to keep differences
+
+    for i in list_of_nums:
+        for j in list_of_nums:
+            if i > j:
+                differences.append(i - j)
+            elif j > i:
+                differences.append(j - i)
+            else:
+                continue
+
+    differences = list(dict.fromkeys(differences)) # remove duplicates
+    return sorted(differences)
+
+
+differences = find_differences(list_of_nums)
+
+
+print("All differences: ", differences)
+print("Maximum difference: ", max(differences))
+print("Minimum difference: ", differences[0])
