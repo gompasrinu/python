@@ -1,0 +1,10 @@
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input('enter element to found'))
+flag=0
+for i in range(0,n):
+    if l[i]==x:
+        print('element found at',i)
+        flag=flag+1
+if flag<1:
+    print('element is not found')
